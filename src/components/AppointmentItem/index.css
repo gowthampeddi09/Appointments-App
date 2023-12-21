@@ -1,0 +1,31 @@
+/* Write your CSS here */
+
+.appointment-card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #b5b7c4;
+  border-radius: 13px;
+  padding: 12px;
+  list-style-type: none;
+}
+
+.card-top-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.title {
+  color: #171f46;
+  font-size: 18px;
+  font-weight: 770;
+}
+
+.date {
+  color: #b5b7c4;
+  font-size: 14px;
+}
+
+button {
+  background-color: transparent;
+  border-color: transparent;
+}

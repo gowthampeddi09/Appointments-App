@@ -1,0 +1,92 @@
+/* Write your CSS here */
+.app {
+  background-image: linear-gradient(to top, #9796f0, #fbc7d4);
+  min-height: 100vh;
+  background-size: cover;
+  padding-left: 6px;
+  padding-right: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.appointments-card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 12px;
+  padding: 22px;
+  width: 80%;
+}
+
+.add-appointment-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-heading {
+  font-family: 'Roboto';
+  font-size: 29px;
+  color: #171f46;
+  font-weight: bold;
+}
+
+.input-label {
+  color: #b5b7c4;
+  font-size: 19px;
+}
+
+.user-input {
+  border: 2px solid #b5b7c4;
+  border-radius: 6px;
+  height: 35px;
+  width: 222px;
+  margin-bottom: 12px;
+}
+
+.add-button {
+  background-color: #8b5cf6;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 6px;
+  width: 70px;
+}
+
+.app-img {
+  height: 345px;
+  width: 345px;
+}
+
+.line {
+  border: 1px solid #b5b7c4;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.heading {
+  font-family: 'Roboto';
+  font-size: 26px;
+  color: #171f46;
+  font-weight: bold;
+}
+.new-appointment-top-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.starred-button {
+  background-color: transparent;
+  border-radius: 16px;
+  border: 2px solid #9897f0;
+  color: #9897f0;
+  font-size: 16px;
+  padding: 6px;
+  height: 30px;
+  width: 110px;
+}
+
+.new-appointment-container {
+  display: flex;
+  margin-right: 15px;
+}
